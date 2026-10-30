@@ -1,0 +1,245 @@
+{
+  "ours": {
+    "windows": 1798,
+    "exceedance_rate": 0.008898776418242492,
+    "target": 0.05,
+    "kupiec_p": 1.3256350330580907e-22,
+    "christoffersen_cc_p": 2.9160808849033892e-21,
+    "by_class": {
+      "stocks": 0.00933125972006221,
+      "forex": 0.010526315789473684,
+      "crypto": 0.007352941176470588
+    },
+    "by_regime": {
+      "0": 0.011235955056179775,
+      "1": 0.007207207207207207,
+      "2": 0.008064516129032258
+    },
+    "profiles": {
+      "cautious": {
+        "limit_breach_rate": 0.007230255839822024,
+        "mean_allocation_pct": 0.4537339047764879
+      },
+      "balanced": {
+        "limit_breach_rate": 0.006117908787541713,
+        "mean_allocation_pct": 0.6110396912458858
+      },
+      "aggressive": {
+        "limit_breach_rate": 0.004449388209121246,
+        "mean_allocation_pct": 0.7152248415702172
+      }
+    }
+  },
+  "ours_adaptive": {
+    "windows": 1798,
+    "exceedance_rate": 0.010011123470522803,
+    "target": 0.05,
+    "kupiec_p": 4.184040966486123e-21,
+    "christoffersen_cc_p": 8.376644488161977e-20,
+    "by_class": {
+      "stocks": 0.015552099533437015,
+      "forex": 0.010526315789473684,
+      "crypto": 0.004411764705882353
+    },
+    "by_regime": {
+      "0": 0.009630818619582664,
+      "1": 0.009009009009009009,
+      "2": 0.01129032258064516
+    },
+    "profiles": {
+      "cautious": {
+        "limit_breach_rate": 0.00778642936596218,
+        "mean_allocation_pct": 0.4330014501532713
+      },
+      "balanced": {
+        "limit_breach_rate": 0.006674082313681869,
+        "mean_allocation_pct": 0.5898985723516834
+      },
+      "aggressive": {
+        "limit_breach_rate": 0.005005561735261402,
+        "mean_allocation_pct": 0.6920886777811253
+      }
+    }
+  },
+  "ours_point": {
+    "windows": 1798,
+    "exceedance_rate": 0.05561735261401557,
+    "target": 0.05,
+    "kupiec_p": 0.2826532563127976,
+    "christoffersen_cc_p": 0.5531704369861493,
+    "by_class": {
+      "stocks": 0.06376360808709176,
+      "forex": 0.06315789473684211,
+      "crypto": 0.04264705882352941
+    },
+    "by_regime": {
+      "0": 0.06260032102728733,
+      "1": 0.05945945945945946,
+      "2": 0.04516129032258064
+    },
+    "profiles": {
+      "cautious": {
+        "limit_breach_rate": 0.04004449388209121,
+        "mean_allocation_pct": 0.5985249678205354
+      },
+      "balanced": {
+        "limit_breach_rate": 0.030033370411568408,
+        "mean_allocation_pct": 0.7590131706021679
+      },
+      "aggressive": {
+        "limit_breach_rate": 0.022803114571746386,
+        "mean_allocation_pct": 0.846589836987912
+      }
+    }
+  },
+  "ewma_normal": {
+    "windows": 1798,
+    "exceedance_rate": 0.04838709677419355,
+    "target": 0.05,
+    "kupiec_p": 0.7524405359138367,
+    "christoffersen_cc_p": 0.6668057149453074,
+    "by_class": {
+      "stocks": 0.05909797822706065,
+      "forex": 0.04842105263157895,
+      "crypto": 0.03823529411764706
+    },
+    "by_regime": {
+      "0": 0.052969502407704656,
+      "1": 0.05225225225225225,
+      "2": 0.04032258064516129
+    },
+    "profiles": {
+      "cautious": {
+        "limit_breach_rate": 0.03670745272525028,
+        "mean_allocation_pct": 0.5972178593223167
+      },
+      "balanced": {
+        "limit_breach_rate": 0.027252502780867632,
+        "mean_allocation_pct": 0.7562814033357527
+      },
+      "aggressive": {
+        "limit_breach_rate": 0.020578420467185762,
+        "mean_allocation_pct": 0.848654902228708
+      }
+    }
+  },
+  "hist_sim": {
+    "windows": 1798,
+    "exceedance_rate": 0.04949944382647386,
+    "target": 0.05,
+    "kupiec_p": 0.9222963264421091,
+    "christoffersen_cc_p": 0.9569937221939444,
+    "by_class": {
+      "stocks": 0.049766718506998445,
+      "forex": 0.05894736842105263,
+      "crypto": 0.04264705882352941
+    },
+    "by_regime": {
+      "0": 0.04654895666131621,
+      "1": 0.05225225225225225,
+      "2": 0.05
+    },
+    "profiles": {
+      "cautious": {
+        "limit_breach_rate": 0.036151279199110126,
+        "mean_allocation_pct": 0.5846643823797816
+      },
+      "balanced": {
+        "limit_breach_rate": 0.028921023359288096,
+        "mean_allocation_pct": 0.75167895371507
+      },
+      "aggressive": {
+        "limit_breach_rate": 0.022803114571746386,
+        "mean_allocation_pct": 0.8509116398657653
+      }
+    }
+  },
+  "ours_calibrated": {
+    "windows": 1798,
+    "exceedance_rate": 0.06395995550611791,
+    "target": 0.05,
+    "kupiec_p": 0.009092740736433808,
+    "christoffersen_cc_p": 0.029248002391941,
+    "by_class": {
+      "stocks": 0.06531881804043546,
+      "forex": 0.06526315789473684,
+      "crypto": 0.061764705882352944
+    },
+    "by_regime": {
+      "0": 0.0754414125200642,
+      "1": 0.07027027027027027,
+      "2": 0.0467741935483871
+    },
+    "profiles": {
+      "cautious": {
+        "limit_breach_rate": 0.047830923248053395,
+        "mean_allocation_pct": 0.6240068583224517
+      },
+      "balanced": {
+        "limit_breach_rate": 0.036151279199110126,
+        "mean_allocation_pct": 0.7898058144532881
+      },
+      "aggressive": {
+        "limit_breach_rate": 0.02836484983314794,
+        "mean_allocation_pct": 0.8823962050023207
+      }
+    }
+  },
+  "ewma_calibrated": {
+    "windows": 1798,
+    "exceedance_rate": 0.06451612903225806,
+    "target": 0.05,
+    "kupiec_p": 0.006759231713277485,
+    "christoffersen_cc_p": 0.016571353231196975,
+    "by_class": {
+      "stocks": 0.06531881804043546,
+      "forex": 0.06526315789473684,
+      "crypto": 0.06323529411764706
+    },
+    "by_regime": {
+      "0": 0.0754414125200642,
+      "1": 0.06486486486486487,
+      "2": 0.0532258064516129
+    },
+    "profiles": {
+      "cautious": {
+        "limit_breach_rate": 0.047830923248053395,
+        "mean_allocation_pct": 0.6344406569975616
+      },
+      "balanced": {
+        "limit_breach_rate": 0.036151279199110126,
+        "mean_allocation_pct": 0.801588154204066
+      },
+      "aggressive": {
+        "limit_breach_rate": 0.026696329254727477,
+        "mean_allocation_pct": 0.8934641845034474
+      }
+    }
+  },
+  "fixed_10pct": {
+    "windows": 1798,
+    "profiles": {
+      "cautious": {
+        "limit_breach_rate": 0.0,
+        "mean_allocation_pct": 0.1
+      },
+      "balanced": {
+        "limit_breach_rate": 0.0,
+        "mean_allocation_pct": 0.1
+      },
+      "aggressive": {
+        "limit_breach_rate": 0.0,
+        "mean_allocation_pct": 0.1
+      }
+    }
+  },
+  "stress_periods_only": {
+    "ours": 0.006711409395973154,
+    "ours_adaptive": 0.006711409395973154,
+    "ours_point": 0.03355704697986577,
+    "ewma_normal": 0.03355704697986577,
+    "hist_sim": 0.053691275167785234,
+    "ours_calibrated": 0.040268456375838924,
+    "ewma_calibrated": 0.04697986577181208
+  }
+}

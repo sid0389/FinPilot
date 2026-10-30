@@ -1,0 +1,73 @@
+{
+  "rows": 18960,
+  "rmse_log_vol": {
+    "model": 0.43824816207023815,
+    "naive_recent_vol": 0.5092600793756575,
+    "ewma": 0.4495810889644079,
+    "har": 0.4520104117633154
+  },
+  "dm_vs_naive_recent_vol": {
+    "symbols": 17,
+    "model_better_on": 16,
+    "significantly_better_on_5pct": 16
+  },
+  "dm_vs_ewma": {
+    "symbols": 17,
+    "model_better_on": 15,
+    "significantly_better_on_5pct": 11
+  },
+  "dm_vs_har": {
+    "symbols": 17,
+    "model_better_on": 15,
+    "significantly_better_on_5pct": 13
+  },
+  "interval": {
+    "target_coverage": 0.8,
+    "coverage": 0.7908227848101266,
+    "coverage_by_class": {
+      "crypto": 0.7994393833216539,
+      "forex": 0.7874233735416255,
+      "stocks": 0.7842789598108747
+    },
+    "coverage_by_regime_bucket": {
+      "0": 0.7835187353629977,
+      "1": 0.795881680013074,
+      "2": 0.7939757031119987
+    }
+  },
+  "adaptive_interval": {
+    "coverage": 0.7985232067510548,
+    "coverage_by_regime_bucket": {
+      "0": 0.8145491803278688,
+      "1": 0.7793757149861088,
+      "2": 0.799800299550674
+    },
+    "coverage_by_year_static": {
+      "2022": 0.7662116040955631,
+      "2023": 0.7938208032955716,
+      "2024": 0.7936475409836066,
+      "2025": 0.804159802306425,
+      "2026": 0.7700237906423474
+    },
+    "coverage_by_year_adaptive": {
+      "2022": 0.7286689419795221,
+      "2023": 0.8088568486096808,
+      "2024": 0.8,
+      "2025": 0.7938632619439868,
+      "2026": 0.8001586042823157
+    },
+    "mean_width_static": 1.0416576915977256,
+    "mean_width_adaptive": 1.1692958370089717
+  },
+  "abstention": {
+    "mae_all": 0.33118832593860814,
+    "mae_kept_80pct": 0.3238982264336009,
+    "mae_abstained_20pct": 0.36168398001887625,
+    "coverage_kept": 0.7729055025486864
+  },
+  "loss_multiplier_95": {
+    "crypto": 1.5715561378667675,
+    "forex": 1.612928011917679,
+    "stocks": 1.7275494421611248
+  }
+}
