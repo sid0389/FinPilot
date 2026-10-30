@@ -211,4 +211,3 @@ FinPilot is an educational project and does not provide professional financial a
 
 - GitHub: [@sid0389](https://github.com/sid0389)
 - Project Repository: [FinPilot](https://github.com/sid0389/FinPilot)
-g
